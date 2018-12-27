@@ -1,3 +1,5 @@
 # Creating project
 
-OWO
+Queen bee: fajfara
+
+Worker bee: Titus
