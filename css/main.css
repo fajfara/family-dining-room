@@ -1,1 +1,135 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+body, html {
+  margin: 0;
+  padding: 0;
+  background: url(../image/igor.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#content {
+  height: 100vh;
+  width: 100%;
+  background: url(../image/svg/Vector.png);
+  background-size: cover;
+  background-position-y: -100px;
+}
+
+#content header {
+  font-family: rubik;
+  font-weight: bold;
+}
+
+#content header img {
+  position: relative;
+  left: calc(50% - 100px);
+}
+
+#content header nav {
+  position: relative;
+  left: calc(40% - 100px);
+}
+
+#content header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#content header nav ul li {
+  list-style: none;
+}
+
+#content header nav ul li a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 40px;
+  background: none;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+#content header nav ul li a:hover {
+  opacity: 0.8;
+}
+
+main h1 {
+  font-family: plafair display;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 60px;
+  font-weight: normal;
+}
+
+main a {
+  position: relative;
+  font-family: rubik;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+  left: calc(50% - 100px);
+  background: rgba(14, 28, 50, 0.9);
+  padding: 15px 20px;
+  border-radius: 30px;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+main a:hover {
+  opacity: 0.8;
+}
+
+footer {
+  color: #fff;
+  font-family: rubik;
+  font-weight: bold;
+}
+
+footer p:nth-child(1) {
+  position: absolute;
+  top: 770px;
+  left: 530px;
+  font-size: 1.1em;
+}
+
+footer p:nth-child(1) span {
+  font-size: 3em;
+}
+
+footer p:nth-child(2) {
+  position: absolute;
+  top: 770px;
+  left: 760px;
+  font-size: 1.1em;
+}
+
+footer p:nth-child(2) span {
+  font-size: 3em;
+}
+
+footer p:nth-child(3) {
+  position: absolute;
+  top: 770px;
+  left: 1000px;
+  font-size: 1.1em;
+}
+
+footer p:nth-child(3) span {
+  position: relative;
+  left: -10px;
+  font-size: 3em;
+}
+
+footer p:nth-child(4) {
+  position: absolute;
+  top: 770px;
+  left: 1200px;
+  font-size: 1.1em;
+}
+
+footer p:nth-child(4) span {
+  padding-left: 40px;
+  font-size: 3em;
+}
+/*# sourceMappingURL=main.css.map */
